@@ -11,6 +11,16 @@
 		535C7432253696F500D28595 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C7431253696F500D28595 /* ContentView.swift */; };
 		535C7434253696F800D28595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 535C7433253696F800D28595 /* Assets.xcassets */; };
 		535C7437253696F800D28595 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 535C7436253696F800D28595 /* Preview Assets.xcassets */; };
+		535C74402536982200D28595 /* obj1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C743F2536982200D28595 /* obj1.swift */; };
+		535C74432536A0C800D28595 /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C74422536A0C800D28595 /* character.swift */; };
+		535C74462536A0D200D28595 /* maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C74452536A0D200D28595 /* maps.swift */; };
+		535C74492536A0DD00D28595 /* treasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C74482536A0DD00D28595 /* treasure.swift */; };
+		535C744F2536A32100D28595 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C744E2536A32100D28595 /* Person.swift */; };
+		535C74532536A4E400D28595 /* character_list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C74522536A4E400D28595 /* character_list.swift */; };
+		535C74572536AB5300D28595 /* story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C74562536AB5300D28595 /* story.swift */; };
+		535C745B2536AE8900D28595 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C745A2536AE8900D28595 /* Map.swift */; };
+		535C745F2536B08700D28595 /* maplist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C745E2536B08700D28595 /* maplist.swift */; };
+		535D079F253DB99D0041936E /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 535D079E253DB99D0041936E /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +30,16 @@
 		535C7433253696F800D28595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		535C7436253696F800D28595 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		535C7438253696F800D28595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		535C743F2536982200D28595 /* obj1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obj1.swift; sourceTree = "<group>"; };
+		535C74422536A0C800D28595 /* character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = character.swift; sourceTree = "<group>"; };
+		535C74452536A0D200D28595 /* maps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maps.swift; sourceTree = "<group>"; };
+		535C74482536A0DD00D28595 /* treasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = treasure.swift; sourceTree = "<group>"; };
+		535C744E2536A32100D28595 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		535C74522536A4E400D28595 /* character_list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = character_list.swift; sourceTree = "<group>"; };
+		535C74562536AB5300D28595 /* story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = story.swift; sourceTree = "<group>"; };
+		535C745A2536AE8900D28595 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		535C745E2536B08700D28595 /* maplist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maplist.swift; sourceTree = "<group>"; };
+		535D079E253DB99D0041936E /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +72,18 @@
 		535C742E253696F500D28595 /* 00757131 */ = {
 			isa = PBXGroup;
 			children = (
+				535D079E253DB99D0041936E /* music.mp3 */,
 				535C742F253696F500D28595 /* _0757131App.swift */,
 				535C7431253696F500D28595 /* ContentView.swift */,
+				535C743F2536982200D28595 /* obj1.swift */,
+				535C74562536AB5300D28595 /* story.swift */,
+				535C744E2536A32100D28595 /* Person.swift */,
+				535C74422536A0C800D28595 /* character.swift */,
+				535C74522536A4E400D28595 /* character_list.swift */,
+				535C745A2536AE8900D28595 /* Map.swift */,
+				535C74452536A0D200D28595 /* maps.swift */,
+				535C745E2536B08700D28595 /* maplist.swift */,
+				535C74482536A0DD00D28595 /* treasure.swift */,
 				535C7433253696F800D28595 /* Assets.xcassets */,
 				535C7438253696F800D28595 /* Info.plist */,
 				535C7435253696F800D28595 /* Preview Content */,
@@ -127,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				535C7437253696F800D28595 /* Preview Assets.xcassets in Resources */,
+				535D079F253DB99D0041936E /* music.mp3 in Resources */,
 				535C7434253696F800D28595 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +170,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				535C7432253696F500D28595 /* ContentView.swift in Sources */,
+				535C745F2536B08700D28595 /* maplist.swift in Sources */,
+				535C74462536A0D200D28595 /* maps.swift in Sources */,
 				535C7430253696F500D28595 /* _0757131App.swift in Sources */,
+				535C74402536982200D28595 /* obj1.swift in Sources */,
+				535C74492536A0DD00D28595 /* treasure.swift in Sources */,
+				535C744F2536A32100D28595 /* Person.swift in Sources */,
+				535C74572536AB5300D28595 /* story.swift in Sources */,
+				535C74432536A0C800D28595 /* character.swift in Sources */,
+				535C745B2536AE8900D28595 /* Map.swift in Sources */,
+				535C74532536A4E400D28595 /* character_list.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
